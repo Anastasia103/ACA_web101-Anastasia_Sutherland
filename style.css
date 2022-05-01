@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_pic/00/15/30/4656e81f6dc57c5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #85bcce;
+  }
+  /* What kind of selector is this? */
+  .logo {
+    width: 150px;
+    height: 100px;
+    margin: 4% 8%;
+    
+  }
+
+  header {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    width: 100%;
+  }
+
+  main {
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+  }
+
+  /* This is an element within and element selector */ 
+  nav > a {
+    margin: 2% 3% 1%;
+    height: 10%;
+    width: 15%;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border-radius: 25px;
+    background-color: white;
+    padding: 40px;
+    text-align: center;
+  }
+
+  .has-border {
+    border-radius: 25px;
+    border: 2px solid black;
+    background-color: white;
+    padding: 15px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 5%;
+    margin: auto -35%;
+    background-color: lightsalmon;
+    
+  }
+  /* This is an ID selector */
+  #profile-pic {
+    width: 325px;
+    height: 400px;
+    border-radius: 20%;
+    margin: 10% auto;
+    grid-column: 2/3;
+    border: 5px solid black;
+  }
+
+  h1 {
+    color:black;
+    font-size: 65px;
+    text-align: center;
+    grid-column: 2/3;
+    margin: 3% auto;
+    text-decoration: underline black;
+    border-radius: 15px;
+    padding: -30px;
+  }
+
+  h2 {
+    grid-column: 2/3;
+    margin: 2% auto;
+    font-style: italic;
+  }
+
+  .small-text {
+    grid-column: 2/3;
+    color: black;
+    font-size: 10px;
+    margin: 3% auto;
+  }
+
+  button {
+    grid-column: 2/3;
+    margin: 12% auto;
+    width: 70%;
+    height: 15%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    border-radius: 25px;
+    background: white;
+    padding: 20px;
+    padding-bottom: 7%;
+    text-align: center;
+    color: black;
+    letter-spacing: 10px;
+    font-style: italic;
+  }
