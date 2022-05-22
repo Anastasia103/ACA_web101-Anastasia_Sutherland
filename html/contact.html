@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contact.css">
+    <title>Contact</title>
+</head>
+<body>
+<form action="" method="post" class="STYLE-NAME">
+    <h1>Contact Form 
+        <span>Please fill all the texts in the fields.</span>
+    </h1>
+    <label>
+        <span>Your Email :</span>
+        <input id="email" type="email" name="email" placeholder="Valid Email Address" />
+    </label>
+    
+    <label>
+        <span>Comments :</span>
+        <textarea id="message" name="message" placeholder="Any Comments you have" minlength="20" maxlength="500"></textarea>
+    </label> 
+    
+   <div class="Checkbox">
+    <h2> How did you hear about me?</h2>
+      <input type="checkbox" id="Classmate" class="hear-options" name="hear-options" value="Classmate">
+        <label for="Classmate">Classmate</label>
+      <input type="checkbox" id="Resume-Submission" class="hear-options" name="hear-options" value="Resume-Submission">
+        <label for="Resume-Submission">Resume Submission</label>
+      <input type="checkbox" id="LinkedIn" class="hear-options"name="hear-options" value="LinkedIn">
+        <label for="LinkedIn">LinkedIn</label>
+      <input type="checkbox" id="Coding-Academy-Rec" class="hear-options" name="hear-options" value="Coding-Academy-Rec">
+        <label for="Coding-Academy-Rec">Coding Academy Rec</label>
+     </div>
+  <div class="Radio">
+    <h2>Would you like to be contacted back?</h2>
+    <input type="radio" id="Contact-Yes" class="contact-options"name="contact-options" value="Contact-Yes">
+        <label for="Contact-Yes">Yes</label>
+      <input type="radio" id="Contact-No" class="contact-options" name="contact-options" value="Contact-No">
+        <label for="Contact-No">No</label>
+    </div>
+    <h2>Optional: Enter Birthdate Below for a Birthday Wish</h2>
+    <label id="DateL" for="date">Date</label>
+    <input type="date" id="date" name="date" value="Date">
+    <label id="submit">
+        <input type="button" class="button" value="Send" /> 
+    </label>    
+    
+</form>
+</body>
+</html>
